@@ -39,6 +39,9 @@
             <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 class="text-lg font-medium text-gray-900">Contact me</h3>
               <form
+                name="contact"
+                action="/"
+                netlify
                 data-netlify="true"
                 method="POST"
                 class="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-y-6 sm:gap-x-8"
