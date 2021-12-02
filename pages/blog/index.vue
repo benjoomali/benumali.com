@@ -38,7 +38,7 @@ export default {
     try {
       const posts = await $content({ deep: true })
         .only(['title', 'description', 'image', 'path', 'date'])
-        .sortBy('createdAt', 'desc')
+        .sortBy('date', 'desc')
         .fetch()
       return { posts }
     } catch (err) {}

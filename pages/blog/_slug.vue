@@ -24,7 +24,7 @@
 import Nav from '../../components/Nav/nav.vue'
 export default {
   components: { Nav },
-  async asyncData({ $content, params, error }) {
+  async asyncData({ $content, params }) {
     const slug = params.slug || 'index'
     const page = await $content(slug).fetch()
 
