@@ -3,7 +3,16 @@
     <Nav />
     <nuxt-content
       :document="page"
-      class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto mt-5"
+      class="
+        prose prose-sm
+        sm:prose
+        lg:prose-lg
+        xl:prose-2xl
+        mx-auto
+        mt-5
+        pt-8
+        pb-16
+      "
     />
   </article>
 </template>
