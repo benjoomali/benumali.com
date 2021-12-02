@@ -29,7 +29,7 @@
           </div>
           <div class="space-x-8 flex md:ml-10">
             <NuxtLink
-              to="/posts"
+              to="/blog"
               class="text-base font-medium text-gray-100 hover:text-white"
               >Blog</NuxtLink
             >
