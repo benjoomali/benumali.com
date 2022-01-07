@@ -1,5 +1,7 @@
 # ben-umali-portfolio
 
+Personal Blog and Portfolio site for [benumali.com](http://benumali.com)
+
 ## Build Setup
 
 ```bash

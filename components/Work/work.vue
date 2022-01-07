@@ -1,14 +1,6 @@
 <template>
   <div
-    class="
-      relative
-      bg-gray-50
-      pt-16
-      pb-20
-      px-4
-      sm:px-6
-      lg:pt-24 lg:pb-28 lg:px-8
-    "
+    class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
   >
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
@@ -16,14 +8,7 @@
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
         <h2
-          class="
-            text-3xl
-            tracking-tight
-            font-extrabold
-            text-white
-            md:text-5xl
-            xl:text-5xl
-          "
+          class="text-3xl tracking-tight font-extrabold text-white md:text-5xl xl:text-5xl"
         >
           <span class="block text-blue">My Work</span>
         </h2>
@@ -32,16 +17,7 @@
         </p>
       </div>
       <div
-        class="
-          mt-12
-          max-w-lg
-          md:max-w-3xl
-          mx-auto
-          grid
-          gap-5
-          md:grid-cols-2
-          lg:max-w-5xl
-        "
+        class="mt-12 max-w-lg md:max-w-3xl mx-auto grid gap-5 md:grid-cols-2 lg:max-w-5xl"
       >
         <Card
           v-for="project in projects"
@@ -102,7 +78,7 @@ export default {
           workType: 'SaaS',
           title: 'Getsettledin.com',
           description:
-            'I cofounded a Property Management SaaS platform created to help streamline the move-in process for property managers and their new tenants.',
+            'I cofounded a (now defunct) Property Management SaaS platform created to help streamline the move-in process for property managers and their new tenants.',
           techStack: ['Ruby on Rails', 'Vue', 'Tailwind'],
           image: 'getsettledin-screenshot.jpg',
           anchor: '',

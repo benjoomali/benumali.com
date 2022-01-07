@@ -27,31 +27,12 @@
         <div class="relative">
           <div
             v-if="project.techStack"
-            class="
-              flex
-              justify-start
-              flex-wrap
-              text-sm text-gray-500
-              overflow-x-auto
-            "
+            class="flex justify-start flex-wrap text-sm text-gray-500 overflow-x-auto"
           >
             <span
               v-for="tech in project.techStack"
               :key="tech"
-              class="
-                inline-flex
-                items-center
-                mr-2
-                mt-1
-                px-2.5
-                py-0.5
-                rounded-md
-                text-sm
-                font-medium
-                bg-gray-100
-                text-gray-800
-                whitespace-nowrap
-              "
+              class="inline-flex items-center mr-2 mt-1 px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 text-gray-800 whitespace-nowrap"
             >
               {{ tech }}
             </span>
@@ -66,7 +47,7 @@
 export default {
   props: {
     project: {
-      type: String,
+      type: Object,
       required: true,
     },
   },

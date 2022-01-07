@@ -2,27 +2,12 @@
   <section id="contact-me" class="overflow-hidden">
     <!-- Contact section -->
     <section
-      class="
-        relative
-        bg-gray-50
-        pt-16
-        pb-20
-        px-4
-        sm:px-6
-        lg:pt-24 lg:pb-28 lg:px-8
-      "
+      class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
       aria-labelledby="contact-heading"
     >
       <div class="text-center pb-8">
         <h2
-          class="
-            text-3xl
-            tracking-tight
-            font-extrabold
-            text-white
-            md:text-5xl
-            xl:text-5xl
-          "
+          class="text-3xl tracking-tight font-extrabold text-white md:text-5xl xl:text-5xl"
         >
           <span class="block text-blue">Get in Touch</span>
         </h2>
@@ -57,24 +42,14 @@
                       id="name"
                       type="text"
                       name="name"
-                      autocomplete="given-name"
-                      class="
-                        py-3
-                        px-4
-                        block
-                        w-full
-                        shadow-sm
-                        text-gray-900
-                        focus:ring-teal-500 focus:border-teal-500
-                        border-gray-300
-                        rounded-md
-                      "
+                      autocomplete="name"
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-teal-500 focus:border-teal-500 border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
                 <div class="hidden">
                   <label
-                    >Don’t fill this out if you’re human:
+                    >I for one welcome our robotic overlords
                     <input name="bot-field"
                   /></label>
                 </div>
@@ -90,17 +65,7 @@
                       name="email"
                       type="email"
                       autocomplete="email"
-                      class="
-                        py-3
-                        px-4
-                        block
-                        w-full
-                        shadow-sm
-                        text-gray-900
-                        focus:ring-teal-500 focus:border-teal-500
-                        border-gray-300
-                        rounded-md
-                      "
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-teal-500 focus:border-teal-500 border-gray-300 rounded-md"
                     />
                   </div>
                 </div>
@@ -120,17 +85,7 @@
                       id="message"
                       name="message"
                       rows="4"
-                      class="
-                        py-3
-                        px-4
-                        block
-                        w-full
-                        shadow-sm
-                        text-gray-900
-                        focus:ring-teal-500 focus:border-teal-500
-                        border border-gray-300
-                        rounded-md
-                      "
+                      class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-teal-500 focus:border-teal-500 border border-gray-300 rounded-md"
                       aria-describedby="message-max"
                     ></textarea>
                   </div>
@@ -138,28 +93,7 @@
                 <div class="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    class="
-                      mt-2
-                      w-full
-                      inline-flex
-                      items-center
-                      justify-center
-                      px-6
-                      py-3
-                      border border-transparent
-                      rounded-md
-                      shadow-sm
-                      text-base
-                      font-medium
-                      text-white
-                      bg-blue
-                      hover:bg-light_blue
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-light_blue
-                      sm:w-auto
-                    "
+                    class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue hover:bg-light_blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-light_blue sm:w-auto"
                   >
                     Submit
                   </button>
