@@ -6,10 +6,6 @@ description: A little Ruby to solve the Advent of Code challenge for 2021.
 tags: ['aoc', '2021', 'ruby']
 ---
 
-## Advent of Code Day 1
-
-#### December 1, 2021
-
 ### Sonar Sweep
 
 This one was fun. We use the `.each_cons` enumerable method in Ruby to handle most of the work.

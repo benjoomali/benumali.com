@@ -7,16 +7,13 @@
           <NuxtLink :to="'blog' + link.path">
             <div class="p-8">
               <h3
-                class="
-                  text-2xl
-                  font-semibold
-                  text-gray-900
-                  group-hover:text-light_blue
-                "
+                class="text-2xl font-semibold text-gray-900 group-hover:text-light_blue"
               >
                 {{ link.title }}
               </h3>
-              <p class="hidden group-hover:text-blue">{{ link.date }}</p>
+              <p class="group-hover:text-light_blue">
+                {{ formatDate(link.date) }}
+              </p>
               <p
                 class="mt-3 text-base text-gray-500 group-hover:text-light_blue"
               >
@@ -42,6 +39,12 @@ export default {
         .fetch()
       return { posts }
     } catch (err) {}
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'short', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en-US', options)
+    },
   },
 }
 </script>

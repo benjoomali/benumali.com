@@ -6,10 +6,6 @@ description: Solving the Dive! question with ruby.
 tags: ['aoc', '2021', 'ruby']
 ---
 
-## Advent of Code Day 1
-
-#### December 1, 2021
-
 ### Dive!
 
 #### Part 1

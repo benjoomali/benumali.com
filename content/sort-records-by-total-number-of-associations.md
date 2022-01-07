@@ -6,10 +6,6 @@ description: Sort records by the total number of has_many associations.
 tags: ['rails', 'left outer join', 'ruby']
 ---
 
-## Sorting Records by Total Number of Has_Many Associations
-
-#### August 14, 2021
-
 Needed to be able to sort an index of records by the total number of has_many associations that existed on the record.
 
 I originally wrote this scope:

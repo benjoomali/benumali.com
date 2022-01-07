@@ -6,10 +6,6 @@ description: So currently I'm building a custom theme in Wordpress that implemen
 tags: ['vuejs', 'wordpress']
 ---
 
-## Creating a Multi Faceted Search with PG_Search, Pagy and Rails 6
-
-#### January 27, 2020
-
 In the process of creating a scoped search module for a freelance project, I ran into an issue with implementing PG_Search with Pagy. Basically, the concept was to build a Route Search function, where a user could search from location to location, with specific filters.
 
 ### PG_Search

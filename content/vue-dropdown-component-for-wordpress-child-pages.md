@@ -6,10 +6,6 @@ description: So currently I'm building a custom theme in Wordpress that implemen
 tags: ['vuejs', 'wordpress']
 ---
 
-## Child Page Dropdown via Wordpress Rest API in Vue
-
-#### January 27, 2020
-
 So currently I'm building a custom theme in Wordpress that implements Vue without completely replacing the front end. The reasoning for this is rooted in SEO and a lot of legacy content, so instead of using Vue Router and the works, I mount Vue components to the Wordpress templates.
 
 ![background](/blog/vue-dropdown-open.png)
