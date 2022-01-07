@@ -26,8 +26,6 @@
               <form
                 name="contact"
                 action="/"
-                netlify
-                data-netlify="true"
                 method="POST"
                 class="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-y-6 sm:gap-x-8"
               >
