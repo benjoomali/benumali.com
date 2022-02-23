@@ -12,7 +12,7 @@
         <p class="text-sm font-medium text-indigo-600">
           {{ project.workType }}
         </p>
-        <a :href="project.anchor" class="block mt-2 group">
+        <a :href="project.anchor" target="_blank" class="block mt-2 group">
           <p
             class="text-xl font-semibold text-blue group-hover:text-light_blue"
           >

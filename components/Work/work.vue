@@ -71,7 +71,7 @@ export default {
             'Algolia Search API',
           ],
           image: 'ul-screenshot.jpg',
-          anchor: '',
+          anchor: 'https://ultimatelogisticsinc.com/',
         },
         {
           id: 4,
@@ -81,7 +81,7 @@ export default {
             'I cofounded a (now defunct) Property Management SaaS platform created to help streamline the move-in process for property managers and their new tenants.',
           techStack: ['Ruby on Rails', 'Vue', 'Tailwind'],
           image: 'getsettledin-screenshot.jpg',
-          anchor: '',
+          anchor: 'https://www.loom.com/share/4f79a28074a746c6a7ace84e671ceff1',
         },
       ],
     }
